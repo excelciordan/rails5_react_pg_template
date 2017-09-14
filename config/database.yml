@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: rails
+  password: rails
+
+development:
+  <<: *default
+  database: react_example_dev
+
+test:
+  <<: *default
+  database: react_example_test
+
+production:
+  <<: *default
+  database: react_example_prod

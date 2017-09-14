@@ -1,0 +1,32 @@
+{
+  "name": "react-template",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^3.0.1",
+    "ajv": "^5.2.2",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "caniuse-lite": "^1.0.30000697",
+    "coffeescript": "^1.8.0",
+    "foundation-sites": "^6.4.3",
+    "golden-layout": "^1.5.9",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.0.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-foundation-components": "^0.12.3",
+    "webpack": "^3.5.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.6.1",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
